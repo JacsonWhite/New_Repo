@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    padding: 10px;
+    background-color: deepskyblue;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 820px;
+    color: white;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 330px;
+    list-style-type: none;
+}
+
+select {
+    height: 30px;
+    width: 40px;
+    background-color: whitesmoke;
+}
+
+#container {
+    height: 380px;
+    margin-bottom: 10px;
+
+}
+
+.subtitle-line {
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 850px;
+    margin: auto;
+    margin-bottom: 12px;
+}
+
+.subtitle-line h2 {
+    margin-left: 15px;
+}
+
+form {
+    display: flex;
+    justify-content: space-evenly;
+    width: 250px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    width: 850px;
+    margin: auto;
+    padding: 6px;
+}
+
+.forecast {
+    background-color: whitesmoke;
+    height: 285px;
+    width: 170px;
+    font-weight: bold;
+}
+
+.forecast h1, p {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.forecast p {
+    display: flex;
+    justify-content: space-around;
+}
+
+.high {
+    color: red;
+}
+
+.low {
+    color: blue;
+}
+
+.high::after, .low::after{
+    content: "\00B0";
+}
+
+img {
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+    margin-left: 22px;
+    margin-bottom: 25px;
+    align-self: center;
+}
+
+.footer {
+    background-color: whitesmoke;
+    /* margin: auto; */
+    width: 800px;
+    position: fixed;
+    margin-left: 560px;
+}
+
+.cookie-policy {
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cookie-policy p {
+    text-align: start;
+}
+
+.cookie-policy img {
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+}
+
+.text {
+    margin-right: 150px;
+}
+
+.btn {
+    width: 85px;
+    height: 25px;
+    border: 2px solid black;
+    background-color: deepskyblue;
+    color: black;
+    box-shadow: 3px 3px black;
+}
